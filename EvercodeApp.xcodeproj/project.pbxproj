@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		208FB1FC3FF9390500299095 /* Pods_EvercodeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0ADA14BA80E03A17D5E97A0 /* Pods_EvercodeAppTests.framework */; };
 		9826D8BE2788B40800E05400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9826D8BD2788B40800E05400 /* Assets.xcassets */; };
 		9826D9042788B43F00E05400 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826D8F72788B43F00E05400 /* MainViewController.swift */; };
 		9826D90A2788B48000E05400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826D9082788B48000E05400 /* AppDelegate.swift */; };
 		9826D90B2788B48000E05400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826D9092788B48000E05400 /* SceneDelegate.swift */; };
 		984C941D2A01A1E400B3F05A /* EvercodeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984C941C2A01A1E400B3F05A /* EvercodeAppTests.swift */; };
+		DE9B16AD549985AF570755AE /* Pods_EvercodeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAFD55E82E4D8322BDE6D3F /* Pods_EvercodeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24F0EE2B5C3D0BB99120F4F2 /* Pods-EvercodeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvercodeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-EvercodeAppTests/Pods-EvercodeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F85F223A641EB4970DDBFDA /* Pods-EvercodeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvercodeAppTests.release.xcconfig"; path = "Target Support Files/Pods-EvercodeAppTests/Pods-EvercodeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7809C75950B1488F67F201CE /* Pods-EvercodeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvercodeApp.debug.xcconfig"; path = "Target Support Files/Pods-EvercodeApp/Pods-EvercodeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9826D8B12788B40600E05400 /* EvercodeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvercodeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9826D8BD2788B40800E05400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9826D8C22788B40800E05400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +38,9 @@
 		9826D9082788B48000E05400 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9826D9092788B48000E05400 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		984C941C2A01A1E400B3F05A /* EvercodeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvercodeAppTests.swift; sourceTree = "<group>"; };
+		B0ADA14BA80E03A17D5E97A0 /* Pods_EvercodeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvercodeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FF19EA6513BF3BCBD03968 /* Pods-EvercodeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvercodeApp.release.xcconfig"; path = "Target Support Files/Pods-EvercodeApp/Pods-EvercodeApp.release.xcconfig"; sourceTree = "<group>"; };
+		FBAFD55E82E4D8322BDE6D3F /* Pods_EvercodeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvercodeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9B16AD549985AF570755AE /* Pods_EvercodeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208FB1FC3FF9390500299095 /* Pods_EvercodeAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +69,8 @@
 				9826D8B32788B40600E05400 /* EvercodeApp */,
 				9826D8CA2788B40800E05400 /* EvercodeAppTests */,
 				9826D8B22788B40600E05400 /* Products */,
+				CC5FF3F85068A974DA1CEB6E /* Pods */,
+				E056320B672E4FB120BF933F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +135,27 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		CC5FF3F85068A974DA1CEB6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7809C75950B1488F67F201CE /* Pods-EvercodeApp.debug.xcconfig */,
+				E4FF19EA6513BF3BCBD03968 /* Pods-EvercodeApp.release.xcconfig */,
+				24F0EE2B5C3D0BB99120F4F2 /* Pods-EvercodeAppTests.debug.xcconfig */,
+				6F85F223A641EB4970DDBFDA /* Pods-EvercodeAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E056320B672E4FB120BF933F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBAFD55E82E4D8322BDE6D3F /* Pods_EvercodeApp.framework */,
+				B0ADA14BA80E03A17D5E97A0 /* Pods_EvercodeAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9826D8DB2788B40800E05400 /* Build configuration list for PBXNativeTarget "EvercodeApp" */;
 			buildPhases = (
+				98EE244962E29E139EEE7C37 /* [CP] Check Pods Manifest.lock */,
 				9826D8AD2788B40600E05400 /* Sources */,
 				9826D8AE2788B40600E05400 /* Frameworks */,
 				9826D8AF2788B40600E05400 /* Resources */,
+				C0EA425C16720A674DA9B3F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9826D8DE2788B40800E05400 /* Build configuration list for PBXNativeTarget "EvercodeAppTests" */;
 			buildPhases = (
+				75C0DF8AACEDF4D17624FE0B /* [CP] Check Pods Manifest.lock */,
 				9826D8C32788B40800E05400 /* Sources */,
 				9826D8C42788B40800E05400 /* Frameworks */,
 				9826D8C52788B40800E05400 /* Resources */,
@@ -217,6 +253,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75C0DF8AACEDF4D17624FE0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EvercodeAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98EE244962E29E139EEE7C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EvercodeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EA425C16720A674DA9B3F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EvercodeApp/Pods-EvercodeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EvercodeApp/Pods-EvercodeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EvercodeApp/Pods-EvercodeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9826D8AD2788B40600E05400 /* Sources */ = {
@@ -366,6 +466,7 @@
 		};
 		9826D8DC2788B40800E05400 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7809C75950B1488F67F201CE /* Pods-EvercodeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -393,6 +494,7 @@
 		};
 		9826D8DD2788B40800E05400 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FF19EA6513BF3BCBD03968 /* Pods-EvercodeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +522,7 @@
 		};
 		9826D8DF2788B40800E05400 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F0EE2B5C3D0BB99120F4F2 /* Pods-EvercodeAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -447,6 +550,7 @@
 		};
 		9826D8E02788B40800E05400 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F85F223A641EB4970DDBFDA /* Pods-EvercodeAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
